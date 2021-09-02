@@ -1,0 +1,22 @@
+{
+  "name": "bricre/ebay-api-sell-fulfillment",
+  "description": "API client generated from eBay's OpenAPI definition",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Allan Sun",
+      "email": "allan.sun@bricre.com"
+    }
+  ],
+  "require": {
+    "allansun/openapi-runtime": "^2.1"
+  },
+  "require-dev": {
+    "allansun/openapi-code-generator": "^0.2.5",
+    "allansun/openapi-parser": "^2.1.4"
+  },
+  "autoload": {
+    "Ebay\\Sell\\Fulfillment\\": "/src"
+  }
+}
